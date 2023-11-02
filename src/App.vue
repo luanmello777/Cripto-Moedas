@@ -13,7 +13,7 @@
     <v-container class="bg-yellow-accent-4 mt-16 d-flex justify-space-between elevation-24">
 
       <div>
-        <v-parallax src="criptomoedas.jpg" width="600" :class="smAndDown ? 'w-0 h-0' : ''" />
+        <v-parallax src="/criptomoedas.jpg" width="600" :class="smAndDown ? 'w-0 h-0' : ''" />
       </div>
 
       <div>
@@ -36,62 +36,62 @@
             <template v-slot:default="{ isActive }">
               <v-card title="Principais CriptoMoedas">
                 <v-card-text>
-                  <span class="text-amber-darken-4"><v-avatar image="bitcoin.png"></v-avatar> Bitcoin (BTC)</span>: O
+                  <span class="text-amber-darken-4"><v-avatar image="/bitcoin.png"></v-avatar> Bitcoin (BTC)</span>: O
                   Bitcoin continua sendo a criptomoeda mais
                   valiosa e amplamente reconhecida. É
                   frequentemente usado como reserva de valor e meio de troca.
                   <br>
                   <br>
-                  <span class="text-amber-darken-4"><v-avatar image="ethereum.png"></v-avatar> Ethereum (ETH)</span>: O
+                  <span class="text-amber-darken-4"><v-avatar image="/ethereum.png"></v-avatar> Ethereum (ETH)</span>: O
                   Ethereum é uma plataforma de contrato
                   inteligente que permite a criação de aplicativos
                   descentralizados (DApps). O Ethereum é a criptomoeda nativa da plataforma.
                   <br>
                   <br>
-                  <span class="text-amber-darken-4"><v-avatar image="binance.png"></v-avatar> Binance Coin (BNB)</span>: A
+                  <span class="text-amber-darken-4"><v-avatar image="/binance.png"></v-avatar> Binance Coin (BNB)</span>: A
                   Binance Coin é a criptomoeda nativa da
                   exchange Binance e é usada para pagar taxas
                   na plataforma.
                   <br>
                   <br>
-                  <span class="text-amber-darken-4"><v-avatar image="tether.png"></v-avatar> Tether (USDT)</span>: O
+                  <span class="text-amber-darken-4"><v-avatar image="/tether.png"></v-avatar> Tether (USDT)</span>: O
                   Tether é uma criptomoeda estável (stablecoin)
                   projetada para manter um valor estável
                   atrelado ao dólar dos EUA. É frequentemente usado para fins de trading e como uma forma de evitar a
                   volatilidade.
                   <br>
                   <br>
-                  <span class="text-amber-darken-4"><v-avatar image="cardano.png"></v-avatar> Cardano (ADA)</span>:
+                  <span class="text-amber-darken-4"><v-avatar image="/cardano.png"></v-avatar> Cardano (ADA)</span>:
                   Cardano é uma plataforma de contrato
                   inteligente que se concentra em segurança e
                   escalabilidade. ADA é a criptomoeda que alimenta a plataforma.
                   <br>
                   <br>
-                  <span class="text-amber-darken-4"><v-avatar image="solana.png"></v-avatar> Solana (SOL)</span>: Solana é
+                  <span class="text-amber-darken-4"><v-avatar image="/solana.png"></v-avatar> Solana (SOL)</span>: Solana é
                   uma blockchain de alto desempenho que
                   visa melhorar a escalabilidade e a
                   velocidade das transações.
                   <br>
                   <br>
-                  <span class="text-amber-darken-4"><v-avatar image="xrp.png"></v-avatar> XRP (XRP)</span>: XRP é a
+                  <span class="text-amber-darken-4"><v-avatar image="/xrp.png"></v-avatar> XRP (XRP)</span>: XRP é a
                   criptomoeda associada à Ripple, uma
                   plataforma que visa facilitar transações
                   transnacionais.
                   <br>
                   <br>
-                  <span class="text-amber-darken-4"><v-avatar image="polkadot.png"></v-avatar> Polkadot (DOT)</span>:
+                  <span class="text-amber-darken-4"><v-avatar image="/polkadot.png"></v-avatar> Polkadot (DOT)</span>:
                   Polkadot é uma plataforma que conecta
                   diferentes blockchains para facilitar a
                   interoperabilidade.
                   <br>
                   <br>
-                  <span class="text-amber-darken-4"><v-avatar image="avax.png"></v-avatar> Avalanche (AVAX)</span>:
+                  <span class="text-amber-darken-4"><v-avatar image="/avax.png"></v-avatar> Avalanche (AVAX)</span>:
                   Avalanche é uma plataforma de contrato
                   inteligente que busca oferecer
                   interoperabilidade entre diferentes blockchains.
                   <br>
                   <br>
-                  <span class="text-amber-darken-4"><v-avatar image="doge.png"></v-avatar> Dogecoin (DOGE)</span>: O
+                  <span class="text-amber-darken-4"><v-avatar image="/doge.png"></v-avatar> Dogecoin (DOGE)</span>: O
                   Dogecoin começou como uma criptomoeda de
                   meme, mas ganhou popularidade como uma forma
                   de gorjeta e em transações menores.
@@ -110,7 +110,7 @@
 
 
     <div class="bg-yellow-accent-4">
-      <v-img src="criptomoedas.jpg" :class="smAndDown ? 'w-100 h-75' : 'w-0 h-0'" />
+      <v-img src="/criptomoedas.jpg" :class="smAndDown ? 'w-100 h-75' : 'w-0 h-0'" />
     </div>
 
 
@@ -126,14 +126,14 @@
           ambiente e o que fazer para reduzir esse impacto.</h3>
 
         <div>
-          <v-img src="impacto.png" width="650" :class="smAndDown ? 'w-100 h-75' : 'w-0 h-0'" />
+          <v-img src="/impacto.png" width="650" :class="smAndDown ? 'w-100 h-75' : 'w-0 h-0'" />
         </div>
       </div>
 
 
 
       <div>
-        <v-img src="impacto.png" width="650" :class="smAndDown ? 'w-0 h-0' : ''" />
+        <v-img src="/impacto.png" width="650" :class="smAndDown ? 'w-0 h-0' : ''" />
       </div>
     </v-container>
 
@@ -243,7 +243,7 @@
         </h3>
       </div>
       
-      <v-img src="impacto.jpg" class="mt-10"/>
+      <v-img src="/impacto.jpg" class="mt-10"/>
     </v-container>
 
 
